@@ -129,13 +129,23 @@
   <ItemGroup>
     <ClInclude Include="Device.h" />
     <ClInclude Include="DeviceList.h" />
+    <ClInclude Include="Page.h" />
+    <ClInclude Include="Profile.h" />
+    <ClInclude Include="ProfileList.h" />
+    <ClInclude Include="SocialNetwork.h" />
     <ClInclude Include="User.h" />
+    <ClInclude Include="UserList.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Device.cpp" />
     <ClCompile Include="DeviceList.cpp" />
+    <ClCompile Include="Page.cpp" />
+    <ClCompile Include="Profile.cpp" />
+    <ClCompile Include="ProfileList.cpp" />
+    <ClCompile Include="SocialNetwork.cpp" />
     <ClCompile Include="testDevice.cpp" />
     <ClCompile Include="User.cpp" />
+    <ClCompile Include="UserList.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
